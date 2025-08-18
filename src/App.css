@@ -3091,7 +3091,7 @@ footer{
   }
   .NAVBAR{
     
-    margin-left: 50px;
+    margin-left: 10px;
 
     
   }
@@ -3116,6 +3116,9 @@ width: 360px;
   .us, .us-text{
     width: 100%;
     
+  }
+  #Partners{
+    display: none;
   }
   .us-text1{
     margin-left:0;
@@ -3176,6 +3179,7 @@ width: 360px;
   footer{
     width: 400px;
     top: 13200px !important;
+    padding-left: 50px;
   }
   .footer1{
     margin-left: 50px !important;
