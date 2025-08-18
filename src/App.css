@@ -3082,7 +3082,7 @@ footer{
 }
 
 
-@media(max-width:360px){
+@media(max-width:420px){
   .LANG{
     margin-top: 15px;
     a{
@@ -3192,4 +3192,141 @@ width: 360px;
     margin-left: 50px !important;
   }
  
+}
+/*  */
+/*  */
+/*  */
+@media(max-width:360px){
+  .LANG{
+    margin-top: 15px;
+    a{
+      font-size: 14px;
+    }
+  }
+  .NAVBAR{
+    
+   justify-self: center;
+  scale: 0.9 !important;
+    
+  }
+  .media{
+   
+    right: -20px;
+  }
+  .menyu{
+    scale: 0.8;
+  margin-left: 10px;
+  }
+  #Facts{
+width: 360px;
+  }
+  #Partners{
+    width: 360px;
+  }
+  .home img{
+    width: 110% !important;
+  }
+
+
+  #Partners{
+    display: none;
+  }
+  .us-text1{
+    margin-left:-20px !important;
+    
+  }
+  .us-text3{
+    margin-left: -20px;
+  }
+  .us-text2{
+    margin-left: -10px;
+    width: 240px !important;
+    scale: 0.9;
+  }
+  .vido{
+    top: 2700px !important;
+   width: 400px !important;
+   margin-left: -20px;
+  }
+  #link2{
+    top: 3150px !important;
+    width: 300px;
+    margin-left: -100px;
+  }
+  .end{
+    top: 9350px;
+    width: 400px;
+  }
+  .yangi{
+    width: 280px !important;
+    margin-left: -105px !important;
+  }
+  .fact-container{
+    width: 420px;
+    top: 9478px;
+    z-index: 9999999999;
+    justify-content: center;
+    .fact{
+      height: 450px !important;
+      margin-left:100px !important;
+
+    }
+  }
+  .fact-container div:last-child{
+    margin-bottom: 50px;
+    
+    position: relative;
+    left: -50px;
+  }
+  .stats-section{
+    top: 11400px;
+    .stat-card{
+      width: 300px;
+      position: relative;
+      right: 10px !important;
+    }
+    .stats-header{
+      top: -180px !important;
+      width: 400px;
+      position: absolute;
+      z-index: 999999999999999999999999999999 !important;
+      
+    }
+    
+  }
+  .pl{
+    top: 12700px;
+    margin-left: 40px;
+    width: 400px;
+  }
+  .ticker-track{
+   top: 12600px;
+  }
+  footer{
+    width: 400px;
+    top: 13200px !important;
+    padding-left: 50px;
+  }
+  .footer1{
+    margin-left: 10px !important;
+  }
+
+  .footer2{
+    margin-left: 10px !important;
+  }
+  .footer4{
+    margin-left: 10px !important;
+  }
+ .fact{
+  width: 300px !important;
+ }
+ .second-part{
+  margin-left: -50px;
+ }
+ .final{
+  margin-top: 20px !important;
+ }
+}
+.final{
+  margin-top: 40px  !important;
 }
