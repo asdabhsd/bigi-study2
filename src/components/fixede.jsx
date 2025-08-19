@@ -27,7 +27,11 @@ import cer1 from "../certificates/certificate.jpg"
 import cer2 from "../certificates/certificate2.jpg"
 export default function Rus(){
     const [scrolled, setScrolled] = useState(false);
-   
+    const videos = [
+    "v1.mp4", "v3.mp4", "v4.mp4", "v5.mp4", 
+    "v6.mp4", "v7.mp4", "v8.mp4", "v9.mp4", 
+    "v10.mp4", "v11.mp4", "v12.mp4"
+  ];
     useEffect(() => {
       const handleScroll = () => {
         setScrolled(window.scrollY > 50); // 50px dan pastga tushganda qorayadi
@@ -105,9 +109,16 @@ export default function Rus(){
                 </div>
             </div>
             <div className="media">
+                
+                  <a href="https://t.me/DjSsardor" target="_blank">
                 <img src={tg} alt="" />
+                  </a>
+                <a href="https://www.instagram.com/bigiedu_uz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                 <img src={inst} alt="" />
+                </a>
+                <a href="https://www.facebook.com/bigi.study/">
                 <img src={fc} alt="" />
+                </a>
             </div>
             <section id="link1" className="us">
                 <h2>About us</h2>
@@ -205,21 +216,16 @@ Stage 3️⃣: Joining free practice and trainings at our partner companies as a
           </div>
         </div>
       </section>
-            <div id="link3" className="vido">
-            <video controls src="/new/v1.mp4"></video>
-      <video controls src="/new/v2.mp4"></video>
-      <video controls src="/new/v3.mp4"></video>
-      <video controls src="/new/v4.mp4"></video>
-      <video controls src="/new/v5.mp4"></video>
-      <video controls src="/new/v6.mp4"></video>
-      <video controls src="/new/v7.mp4"></video>
-      <video controls src="/new/v8.mp4"></video>
-      <video controls src="/new/v9.mp4"></video>
-      <video controls src="/new/v10.mp4"></video>
-      <video controls src="/new/v11.mp4"></video>
-      <video controls src="/new/v12.mp4"></video>
-   
-            </div>
+      <div id="link3" className="vido">
+      {videos.map((file, index) => (
+        <video 
+          key={index} 
+          controls 
+          width="300"
+          src={`/new/${file}`} 
+        />
+      ))}
+    </div>
             <main id="Facts">
       <div id="linkvip" className="About end">
           <h2>Facts About Our Course</h2>

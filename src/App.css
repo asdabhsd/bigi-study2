@@ -3330,3 +3330,9 @@ width: 360px;
 .final{
   margin-top: 40px  !important;
 }
+.c1, .c2{
+  display: none;
+}
+iframe{
+  margin-right:770px !important;
+}
