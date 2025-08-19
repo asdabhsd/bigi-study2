@@ -3336,3 +3336,19 @@ width: 360px;
 iframe{
   margin-right:770px !important;
 }
+.stats-grid{
+  gap: 100px;
+}
+
+@media(max-width:1200px){
+  .UL{
+    gap: 20px;
+  }
+  .REGISTER{
+   scale: 0.8;
+  }
+  .LANG{
+    gap: 20px;
+  }
+ 
+}

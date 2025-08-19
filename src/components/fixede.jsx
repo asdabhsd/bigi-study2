@@ -239,20 +239,26 @@ Stage 3️⃣: Joining free practice and trainings at our partner companies as a
           <img src={langs} alt="" />
           <h4>Language upgrade</h4>
           <p>Before the main course, your English will be upgraded through American Business English Expertise!</p>
-          <img className="arrow1" src={rightarrow} alt="" />
+              <a href="https://drive.google.com/file/d/17-7u5S_cnK-HWn_W6HFl2gJbDdU1hzzZ/view?usp=sharing">
+              <img className="arrow1" src={rightarrow} alt="" />
+              </a>
         </div>
         <div className="fact fact2">
           <img src={truck} alt="" />
           <h4>Trucking Management Mastery
           </h4>
           <p>After the main course, you get armed with all the necessary knowledge on managing trucking business, including carrying out operations through online platforms, websites and app resource kits!</p>
+          <a href="https://drive.google.com/file/d/1M8JWklyAT5EOD3BzBjVpv3sL8EO-4eZO/view?usp=sharing">
           <img className="arrow2" src={rightarrow} alt="" />
+          </a>
         </div>
         <div className="fact fact3">
           <img src={quality} alt="" />
           <h4 className="qua">Quality Logistics Education</h4>
           <p>During the main course, what you get most is quality education integrated with solid work ethics and long-term experience on transportation logistics!</p>
+          <a href="https://drive.google.com/file/d/1g2C4PeEolDTWiJkWBDeTEZcYWdlcQzAx/view?usp=sharing">
           <img className="arrow3" src={rightarrow} alt="" />
+          </a>
         </div>
       </div>
       <div className="pl">
